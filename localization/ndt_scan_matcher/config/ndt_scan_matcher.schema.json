@@ -82,8 +82,8 @@
           "items": {
             "type": "number"
           },
-          "minLength": 36,
-          "maxLength": 36
+          "minItems": 36,
+          "maxItems": 36
         },
         "regularization_enabled": {
           "type": "boolean",
