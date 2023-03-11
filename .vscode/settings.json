@@ -1,0 +1,7 @@
+{
+    "yaml.schemas": {
+        "./localization/ndt_scan_matcher/config/ndt_scan_matcher.schema.json": [
+            "ndt_scan_matcher.param.yaml"
+        ],
+    }
+}
