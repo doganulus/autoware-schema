@@ -1,0 +1,3 @@
+/my_node:
+  ros__parameters:
+    bar: 2

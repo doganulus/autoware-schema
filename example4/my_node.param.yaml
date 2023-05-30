@@ -1,0 +1,10 @@
+/node1:
+  ros__parameters:
+    foo: 1
+    bar: 2
+
+/node2:
+  ros__parameters:
+    aaa: A
+    bbb: a
+    ccc: C

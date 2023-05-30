@@ -1,0 +1,6 @@
+namespace1:
+  namespace2:
+    my_node:
+      ros__parameters:
+        foo: 1
+        bar: 2

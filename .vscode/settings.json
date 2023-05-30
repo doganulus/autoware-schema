@@ -3,5 +3,18 @@
         "./localization/ndt_scan_matcher/config/ndt_scan_matcher.schema.json": [
             "ndt_scan_matcher.param.yaml"
         ],
+        "example1/my_node.schema.json": [
+            "example1/my_node.param.yaml"
+        ],        
+        "example2/my_node.schema.json": [
+            "example2/my_node.param.yaml"
+        ],
+        "example3/my_node.schema.json": [
+            "example3/my_node.common.param.yaml",
+            "example3/my_node.specific.param.yaml"
+        ],
+        "example4/my_node.schema.json": [
+            "example4/my_node.param.yaml"
+        ],
     }
 }

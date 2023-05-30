@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Parameters for my node",
+  "type": "object",
+  "definitions": {
+    "my_node": {
+      "type": "object",
+      "properties": {
+        "foo": {
+          "type": "integer",
+          "description": "foo",
+          "default": 1
+        },        
+        "bar": {
+          "type": "integer",
+          "description": "bar",
+          "default": 2
+        }
+      },
+      "required": ["foo", "bar"]
+    }
+  },
+  "properties": {
+    "/my_node": {
+      "type": "object",
+      "properties": {
+        "ros__parameters": {
+          "$ref": "#/definitions/my_node"
+        }
+      },
+      "required": ["ros__parameters"]
+    }
+  },
+  "required": ["/my_node"]
+}
